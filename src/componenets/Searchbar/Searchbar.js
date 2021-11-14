@@ -1,4 +1,4 @@
-import {Component} from 'react';
+import { Component } from 'react';
 import s from './Searchbar.module.css';
 import { ReactComponent as SearchIcon } from '../icons/search.svg';
 import { toast } from 'react-toastify';
@@ -11,11 +11,11 @@ class SearchBar extends Component {
   };
   handleSubmit = e => {
     e.preventDefault();
-    if(this.state.query.trim()===''){
-        toast.warning('Enter correct value');
-        return;
+    if (this.state.query.trim() === '') {
+      toast.warning('Enter correct value');
+      return;
     }
-    this.props.onSubmit(this.state.query)
+    this.props.onSubmit(this.state.query);
     this.setState({ query: '' });
   };
   render() {

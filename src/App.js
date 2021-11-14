@@ -5,9 +5,10 @@ import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import SearchBar from 'componenets/Searchbar/Searchbar';
 import ImageGallery from 'componenets/ImageGallery/ImageGallery';
-import Modal from 'componenets/Modal/Modal';
 import Button from 'componenets/Button/Button';
 import { fetchImages } from 'componenets/services/pixabay-api';
+import Loader from 'react-loader-spinner';
+import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css';
 class App extends Component {
   state = {
     query: '',
@@ -46,7 +47,16 @@ class App extends Component {
         <SearchBar onSubmit={this.handleSubmit} />
         <ToastContainer autoClose={3000} />
         <ImageGallery images={images} />
-        {status === 'pending' && <div>Загружаем...</div>}
+        {status === 'pending' && (
+          <Loader
+            className="Loader"
+            type="ThreeDots"
+            color="#00BFFF"
+            height={80}
+            width={80}
+            timeout={3000}
+          />
+        )}
         {status === 'rejected' && <h2>{error.massage}</h2>}
         {status === 'resolved' && (
           <Button

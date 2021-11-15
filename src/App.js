@@ -6,7 +6,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import SearchBar from 'componenets/Searchbar/Searchbar';
 import ImageGallery from 'componenets/ImageGallery/ImageGallery';
 import Button from 'componenets/Button/Button';
-import { fetchImages } from 'componenets/services/pixabay-api';
+import { fetchImages } from 'services/pixabay-api';
 import Loader from 'react-loader-spinner';
 import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css';
 class App extends Component {

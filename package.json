@@ -1,5 +1,5 @@
 {
-  "name": "goit-react-hw-03-image-finder",
+  "name": "goit-react-hw-04-hooks-phonebook",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -28,13 +28,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EvgeniyaBarabash/goit-react-hw-03-image-finder.git"
+    "url": "git+https://github.com/EvgeniyaBarabash/goit-react-hw-04-hooks-phonebook.git"
   },
   "author": "Evgeniya Barabash <barabash1989@gmail.com>",
   "bugs": {
-    "url": "https://github.com/EvgeniyaBarabash/goit-react-hw-03-image-finder.git/issues"
+    "url": "https://github.com/EvgeniyaBarabash/goit-react-hw-04-hooks-phonebook.git/issues"
   },
-  "homepage": "https://EvgeniyaBarabash.github.io/goit-react-hw-03-image-finder",
+  "homepage": "https://EvgeniyaBarabash.github.io/goit-react-hw-04-hooks-phonebook",
   "eslintConfig": {
     "extends": [
       "react-app",

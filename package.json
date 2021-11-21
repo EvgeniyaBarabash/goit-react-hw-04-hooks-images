@@ -1,5 +1,5 @@
 {
-  "name": "goit-react-hw-04-hooks-phonebook",
+  "name": "goit-react-hw-04-hooks-images",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -28,13 +28,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EvgeniyaBarabash/goit-react-hw-04-hooks-phonebook.git"
+    "url": "git+https://github.com/EvgeniyaBarabash/goit-react-hw-04-hooks-images.git"
   },
   "author": "Evgeniya Barabash <barabash1989@gmail.com>",
   "bugs": {
-    "url": "https://github.com/EvgeniyaBarabash/goit-react-hw-04-hooks-phonebook.git/issues"
+    "url": "https://github.com/EvgeniyaBarabash/goit-react-hw-04-hooks-images.git/issues"
   },
-  "homepage": "https://EvgeniyaBarabash.github.io/goit-react-hw-04-hooks-phonebook",
+  "homepage": "https://EvgeniyaBarabash.github.io/goit-react-hw-04-hooks-images",
   "eslintConfig": {
     "extends": [
       "react-app",
